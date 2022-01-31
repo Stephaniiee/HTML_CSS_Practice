@@ -1,0 +1,26 @@
+nav{
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+img{
+    float: left;
+    box-sizing: content-box;
+    width: 350px;
+    height: 350px;
+    border-radius: 25% 25% 25% 25% ;
+    padding: 10px 30px 10px 30px;
+    object-fit: cover;
+}
+body{
+    background-color: #e5e5e5;
+}
+nav:hover{
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.2)
+}
